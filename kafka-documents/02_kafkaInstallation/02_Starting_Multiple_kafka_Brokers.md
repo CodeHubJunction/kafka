@@ -68,3 +68,9 @@ bin/kafka-broker-api-versions.sh --bootstrap-server localhost:9094
 You should see information about both brokers.
 
 ---
+
+To check the brokers
+
+```sh
+kafka-broker-api-versions.sh --bootstrap-server localhost:9092
+```
